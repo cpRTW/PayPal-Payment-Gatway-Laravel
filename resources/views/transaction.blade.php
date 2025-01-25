@@ -8,7 +8,7 @@
 </head>
 <body>
     <a class="btn btn-primary m-3" href="{{ route('processTransaction') }}">Pay $1</a>
-    <span>Thanks..!</span>
+    <h1>Thanks..!</h1>
     @if(\Session::has('error'))
         <div class="alert alert-danger">{{ \Session::get('error') }}</div>
         {{ \Session::forget('error') }}
