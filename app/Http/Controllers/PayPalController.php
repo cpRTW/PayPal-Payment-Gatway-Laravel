@@ -32,7 +32,7 @@ class PayPalController extends Controller
             "purchase_units" => [
                 0 => [
                     "amount" => [
-                        "currency_code" => "INR",
+                        "currency_code" => "GBP",
                         "value" => "1.00"
                     ]
                 ]
